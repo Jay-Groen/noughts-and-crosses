@@ -1,23 +1,27 @@
 {
-  "name": "ts-skeleton-app",
-  "version": "1.6.0",
-  "repository": "git@github.com:HZ-HBO-ICT/ts-skeleton-app.git",
-  "author": "HZ University of Applied Sciences",
-  "license": "MIT",
-  "private": true,
+  "name": "noughts-and-crosses",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "type": "module",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "watch": "tsc --watch "
+    "watch": "tsc --watch"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jay-Groen/noughts-and-crosses.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jay-Groen/noughts-and-crosses/issues"
+  },
+  "homepage": "https://github.com/Jay-Groen/noughts-and-crosses#readme",
   "devDependencies": {
-    "typescript": "4.8",
-    "@typescript-eslint/eslint-plugin": "^5.29.0",
-    "@typescript-eslint/parser": "^5.29.0",
-    "eslint": "^8.18.0",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-config-airbnb-typescript": "^17.0.0",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-jsdoc": "^39.3.3"
+    "@types/node": "^20.8.2",
+    "typescript": "^5.2.2"
   }
 }
